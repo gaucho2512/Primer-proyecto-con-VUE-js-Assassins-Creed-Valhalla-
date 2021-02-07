@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div>
 
 
     <!-- header -->
@@ -335,6 +335,155 @@ section div p{
     margin-left: 15px;
    
 }
+
+
+/* COLORES */
+
+
+/*  Header */
+
+header div h1{
+      color: black;
+
+}
+
+header div p {
+    color: #1a1a2e;
+}
+
+
+
+/* Section */
+
+
+.section{
+    color: black;
+}
+
+section div h2{
+    color: #f0a500;
+}
+
+section div p{
+    color: #7d0633;
+
+}
+
+
+.item-section{
+    background-color: #393e46;
+    color: white;
+
+ }
+
+
+.parrafo-section{
+        color: white;
+
+ }
+
+
+ .titulo-section{
+        color: #cff6cf;
+ }
+
+
+
+ /* Article */
+
+
+    .titulo-article{
+    
+    color: #393e46;
+    background-color: #f4f4f4;
+
+    }
+
+
+    
+
+    /*  @ MEDIA  */
+
+
+
+
+    @media  screen and (max-width: 490px){
+        footer div  h4{
+            display: none;
+           
+        }
+        .titulo-article{
+            font-size: 25px;
+        }
+
+        section{
+            height: 1350px;
+        }
+
+        article{
+            height: 550px;
+        }
+        
+    }
+
+
+
+    
+    @media  screen and (max-width: 576px) { 
+        .novedades-video h1{
+            font-size: 25px;
+        }
+
+     }
+
+
+
+
+
+    @media screen and (max-width: 768px) { 
+      footer div  h4{
+            font-size: 18px;
+        }
+
+        .titulo-section{
+            font-size: 18px;
+        }
+
+        .parrafo-section{
+            font-size: 10px;
+        }
+
+        .titulo-article{
+            margin-top: 200px;
+        }
+    }
+
+
+
+      
+    
+    @media  screen and (max-width: 992px) { 
+        .card{
+            height: 1100px
+        }
+        .section-novedades{
+            height: 1150px;
+        }
+    }
+        
+
+
+       
+    
+    
+    @media  screen and (max-width: 1200px) { 
+        .logo-copyright{
+            width: 20%;
+        }
+
+     }
+
+
 
 
 </style>
