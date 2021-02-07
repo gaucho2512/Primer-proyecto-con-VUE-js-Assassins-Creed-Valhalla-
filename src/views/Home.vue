@@ -1,10 +1,13 @@
 <template>
   <div>
 
+   <Navbar />
+  
 
     <!-- header -->
    
   <header>
+
 
     <div class="container">
       <div class="row">
@@ -194,6 +197,9 @@
     </div>
   </article>
 
+
+   <Footer />
+
    
   </div>
   
@@ -201,12 +207,14 @@
 
 <script>
 
-import $ from  "jquery"
-
+import Navbar from "../components/Navbar"
+import Footer from "../components/Footer"
 
 export default {
   name: 'Home',
   components: {
+    Navbar,
+    Footer
   
   }
 }
