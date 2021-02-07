@@ -150,30 +150,6 @@ export default {
 
     /*  @ MEDIA  */
 
-
-
-
-    @media  screen and (max-width: 490px){
-        footer div  h4{
-            display: none;
-           
-        }
-        .titulo-article{
-            font-size: 25px;
-        }
-
-        section{
-            height: 1350px;
-        }
-
-        article{
-            height: 550px;
-        }
-        
-    }
-
-
-
     
     @media  screen and (max-width: 576px) { 
         .novedades-video h1{
@@ -182,31 +158,6 @@ export default {
 
      }
 
-
-
-
-
-    @media screen and (max-width: 768px) { 
-      footer div  h4{
-            font-size: 18px;
-        }
-
-        .titulo-section{
-            font-size: 18px;
-        }
-
-        .parrafo-section{
-            font-size: 10px;
-        }
-
-        .titulo-article{
-            margin-top: 200px;
-        }
-    }
-
-
-
-      
     
     @media  screen and (max-width: 992px) { 
         .card{
@@ -217,17 +168,6 @@ export default {
         }
     }
         
-
-
-       
-    
-    
-    @media  screen and (max-width: 1200px) { 
-        .logo-copyright{
-            width: 20%;
-        }
-
-     }
 
 
 

@@ -201,6 +201,8 @@
 
 <script>
 
+import $ from  "jquery"
+
 
 export default {
   name: 'Home',
@@ -212,6 +214,7 @@ export default {
 
 
 <style>
+
 
 header{
     background-image: url(../assets/image-section-2.jpg);
@@ -408,10 +411,7 @@ section div p{
 
 
     @media  screen and (max-width: 490px){
-        footer div  h4{
-            display: none;
-           
-        }
+       
         .titulo-article{
             font-size: 25px;
         }
@@ -428,23 +428,9 @@ section div p{
 
 
 
-    
-    @media  screen and (max-width: 576px) { 
-        .novedades-video h1{
-            font-size: 25px;
-        }
-
-     }
-
-
-
-
 
     @media screen and (max-width: 768px) { 
-      footer div  h4{
-            font-size: 18px;
-        }
-
+      
         .titulo-section{
             font-size: 18px;
         }
@@ -457,33 +443,5 @@ section div p{
             margin-top: 200px;
         }
     }
-
-
-
-      
-    
-    @media  screen and (max-width: 992px) { 
-        .card{
-            height: 1100px
-        }
-        .section-novedades{
-            height: 1150px;
-        }
-    }
         
-
-
-       
-    
-    
-    @media  screen and (max-width: 1200px) { 
-        .logo-copyright{
-            width: 20%;
-        }
-
-     }
-
-
-
-
 </style>
