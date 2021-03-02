@@ -1,4 +1,4 @@
-# terceraEntrega
+# trabajo entregado para el final del curso 
 
 trabajo realizado con VUE JS
 se crearon componentes , comunicacion entre padres e hijos , 
